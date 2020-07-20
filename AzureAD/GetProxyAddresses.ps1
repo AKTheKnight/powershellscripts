@@ -7,7 +7,6 @@
 $ProxyAddress = Get-AzureADUser -ObjectId $ObjectId |
     select -ExpandProperty ProxyAddresses
 
-"`n"
 "ProxyAddresses"
 "--------------"
 
